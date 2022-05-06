@@ -1,0 +1,55 @@
+.home-page {
+    .text-zone {
+        position: absolute;
+        left: 8%;
+        top: 20%;
+
+        h1 {
+            font-size: 5.2rem;
+            color: #fff;
+            line-height: 8rem;
+            margin: 0;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: rgb(102, 102, 102);
+            letter-spacing: 5px;
+            margin-bottom: 40px;
+        }
+
+        .btn-resume {
+            text-transform: uppercase;
+            background-color: transparent;
+            border: 2px solid #f7d200;
+            border-radius: 30px;
+            box-shadow: transparent 4px 4px 0 0;
+            color: #ffd700;
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 600;
+            font-size: 2.4rem;
+            padding: 0 28px;
+            line-height: 50px;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.3 ease-out;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+          }
+          
+          .btn-resume:hover {
+            background-color: #ffd700;
+            color: #000;
+            box-shadow: #000 4px 4px 0 0;
+          }
+          
+          .btn-resume:active {
+            box-shadow: #422800 2px 2px 0 0;
+            transform: translate(2px, 2px);
+          }
+    }
+}

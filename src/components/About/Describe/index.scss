@@ -1,0 +1,29 @@
+.desc-content {
+    max-height: 600px;
+    min-height: 300px;
+    width: 700px;
+    background-color: rgba(61, 61, 61, 0.5);
+    border-radius: 4px;
+
+    h3 {
+        margin-top: 0;
+    }
+}
+
+.desc-avatar {
+    position: absolute;
+    right: 12%;
+    top: 35%;
+
+    .avatar-wrapper {
+        .avatar-img {
+            border-radius: 50%;
+            background-image: url(../../../assets/img/avatar.jpg);
+            background-repeat: none;
+            padding-top: 100%;
+            background-position: center;
+            background-size: cover;
+            width: 250px;
+        }
+    }
+}

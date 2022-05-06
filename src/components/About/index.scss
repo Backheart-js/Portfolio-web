@@ -1,0 +1,47 @@
+.about-page {
+
+
+    .text-zone {
+        position: absolute;
+        left: 5%;
+        top: 5%;
+
+        
+        h1 {
+            color: #ffd700;
+            font-size: 5.2rem;
+            margin: 0;
+        }
+        
+        .desc-field {
+            margin-top: 40px;
+            width: 1300px;
+
+            a {
+                text-decoration: none;
+                display: inline-block;
+                text-align: center;
+                width: 132px;
+                padding: 8px 0px;
+                color: #fff;
+                font-size: 1.8rem;
+                font-weight: 400;
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+                border: none;
+                transition: all 0.3s ease-out;
+                background-color: transparent;
+    
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgba(61, 61, 61, 0.5);
+                    color: #ccc;
+                }
+
+                svg {
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+}
