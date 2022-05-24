@@ -2,7 +2,6 @@ import { faCircleQuestion, faBook, faGraduationCap } from '@fortawesome/free-sol
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import Description from '../Description';
 import './index.scss';
 
 function About() {

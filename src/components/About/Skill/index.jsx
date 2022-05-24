@@ -1,8 +1,41 @@
-import React from 'react'
+import { faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faBookOpen } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React, { Fragment } from 'react'
+import './index.scss';
 
 function Skill() {
   return (
-    <div>Skill</div>
+    <Fragment>
+      <div className="desc-content">
+        <h3>
+          Nội dung mô tả kỹ năng
+        </h3>
+      </div>
+      <div className="skill-iconcube">
+        <div className="iconcube-wrapper">
+          <div className="face1">
+            <FontAwesomeIcon icon={faBookOpen} color="#333"/>
+          </div>
+          <div className="face2">
+            <FontAwesomeIcon icon={faHtml5} color="#f06529"/>
+          </div>
+          <div className="face3">
+            <FontAwesomeIcon icon={faCss3} color="#5ED4F4"/>
+          </div>
+          <div className="face4">
+            <FontAwesomeIcon icon={faReact} color="#28A4D9"/>
+          </div>
+          <div className="face5">
+            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D"/>
+          </div>
+          <div className="face6">
+            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28"/>
+          </div>
+          
+        </div>
+      </div>
+    </Fragment>
   )
 }
 

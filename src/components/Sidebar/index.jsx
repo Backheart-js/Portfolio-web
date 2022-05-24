@@ -34,23 +34,6 @@ function Sidebar() {
             >
                 <FontAwesomeIcon icon= {faEnvelope} color="#4d4d4e"/>
             </NavLink>
-            <ul className="social-list">
-                <li className="social-item">
-                    <a href="https://www.facebook.com/binhnguyen29122001/" target="_blank">
-                        <FontAwesomeIcon icon={faFacebook} color="#4d4d4e"/>
-                    </a>
-                </li>
-                <li className="social-item">
-                    <a href="https://github.com/Backheart-js" target="_blank">
-                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
-                    </a>
-                </li>
-                <li className="social-item">
-                    <a href="" target="_blank">
-                        <FontAwesomeIcon icon={faTwitter} color="#4d4d4e"/>
-                    </a>
-                </li>
-            </ul>
         </nav>
     </div>
   )
